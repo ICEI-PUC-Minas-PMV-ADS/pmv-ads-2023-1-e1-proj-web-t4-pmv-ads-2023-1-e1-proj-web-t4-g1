@@ -2,90 +2,105 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| Informações Pessoais |                         |
+| -------------------- | ----------------------- |
+| Idade                | 38                      |
+| Aplicativos          | Facebook, Instagram     |
+| Nome                 | Rafael Ribeiro          |
+| Ocupação             | Técnico em refrigeração |
+| Motivações                 |                                                                                                                                                                                                                                                                                  |
+| Como o sistema pode ajudar | Através do cadastro na plataforma, o sistema pode ajudá-lo a se conectar com possíveis clientes - pessoas físicas/ou jurídicas - para prestação de serviços pontuais. Isso pode ajudá-lo a aumentar sua base de clientes e a obter mais oportunidades de trabalho como autônomo. |
+| Frustrações                | Não está satisfeito no atual emprego e gostaria de seguir profissionalmente como autônomo.                                                                                                                                                                                       |
+| Projetos                   | Rafael sonha em empreender sem ter vínculo funcional com empresas, pois acredita que financeiramente será bem mais satisfatório.                                                                                                                                                 |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| Informações Pessoais |                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------- |
+| Idade                | 40                                                                                    |
+| Nome                 | Camila Ferraz                                                                         |
+| Ocupação             | Fisioterapeuta e esteticista, sócia de clínica de estética de relaxamento e bem-estar |
+| Aplicativos          | Instagram, LinkedIn, Facebook, aplicativos de bancos                                  |
+| Motivações                 |                                                                                                                                                                                 |
+| Frustrações                | Não tem conhecimento e receio de contratar profissionais sem experiência para o serviço pleiteado.                                                                              |
+| Como o sistema pode ajudar | O sistema pode ajudá-la a encontrar um profissional que se adeque a qualquer prestação de serviço relacionado à área de manutenção, reforma e construção do seu empreendimento. |
+| Projetos                   | Pretende fazer manutenção, reforma e ampliação da clínica de estética.                                                                                                          |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| Informações Pessoais |                                           |
+| -------------------- | ----------------------------------------- |
+| Idade                | 43                                        |
+| Ocupação             | Arquiteto autônomo                        |
+| Aplicativos          | Facebook, LinkedIn, aplicativos de bancos |
+| Nome                 | Felipe Camargo                            |
+| Motivações                   |                                                                                                                                                                                                                                                                                                            |
+| Projetos                   | Ampliação de networking e novas experiências profissionais na área de arquitetura e design.                                                                                                                                                                                                                   |
+| Como o sistema pode ajudar | Através do cadastro na plataforma, o sistema pode ajudá-lo a se conectar com possíveis clientes - pessoas físicas/ou jurídicas - para prestação de serviços pontuais, parcerias e/ou novas oportunidades de emprego. Isso pode ajudá-lo a expandir sua rede e a obter mais oportunidades de trabalho na área. |
+| Frustrações                | Com apenas 3 anos de mercado, sente a necessidade de expandir sua rede e conhecimento interpessoal para possíveis novas oportunidades de trabalho.                                                                                                                                                            |
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários. 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| -------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Camila Ferraz        | Busco um site que proporcione facilidade na busca por prestadores de serviços   | Para realizar manutenção no meu equipamento de ar-condicionado. |
+| Camila Ferraz        | Quero um site com sistema de classificação com base nas avaliações dos clientes | Para que eu possa contratar profissionais com mais segurança    |
+| Rafael Ribeiro       | Ter uma plataforma para oferecer meu serviço                                    | Para conseguir me conectar a novos clientes                     |
+| Rafael Ribeiro       | Quero uma plataforma que eu possa acessar do meu smartphone                     | Para que eu consiga mais praticidade no dia a dia               |
+| Felipe Camargo       | Quero poder compartilhar meu portfólio com meus potenciais clientes             | Para que conheçam meus trabalhos anteriores                     |
+| Camila Ferraz        | Buscar profissionais que estejam localizados próximo a mim                      | Para diminuir meu tempo de espera pelo serviço                  |
+| Felipe Camargo       | Ter acesso ao perfil dos clientes que contratam meu serviço                     | Para expandir meu negócio                                       |
+| Rafael Ribeiro       | Ter acesso as minhas métricas dos últimos 30 dias                               | Para acompanhar meu desempenho                                  |
+| Felipe Camargo       | Quero compartilhar meu desempenho nas redes sociais                             | Para melhorar a divulgação do meu trabalho                      |
+| Camila Ferraz        | Quero poder me comunicar com o prestador de serviço.                            | Para estabelecer detalhes e sanar dúvidas sobre o serviço       |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+## Requisitos do Projeto
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
 
+| ID    | Descrição                                                                                                                                                                                   | Persona                    | Prioridade |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ---------- |
+| RF-01 | A plataforma deve permitir que profissionais se cadastrem, informando seus dados pessoais, habilidades, especializações e experiências.                                                     | Profissional               | Alta       |
+| RF-02 | A plataforma deve oferecer uma ferramenta de busca que permita as pessoas contratantes encontrarem profissionais de acordo com sua localização, habilidades, especializações, etc.          | Contratante                | Alta       |
+| RF-03 | A plataforma deve permitir que as pessoas contratantes avaliem os profissionais e vice-versa.                                                                                               | Profissional e Contratante | Média      |
+| RF-04 | A plataforma deve oferecer uma ferramenta que permita as pessoas contratantes solicitarem um serviço específico, informando suas necessidades, localização e outras informações relevantes. | Contratante                | Alta       |
+| RF-05 | A plataforma deve permitir que profissionais ofereçam seus serviços, informando suas habilidades, especializações e preços.                                                                 | Profissional               | Alta       |
+| RF-06 | A plataforma deve oferecer um sistema de comunicação entre profissional e pessoa contratante, seja para tirar dúvidas ou combinar detalhes do serviço.                                      | Profissional e Contratante | Baixa      |
+| RF-07 | A plataforma deve oferecer uma ferramenta que as pessoas contratantes acompanhem o andamento dos serviços contratados.                                                                      | Contratante                | Baixa      |
+| RF-08 | A plataforma deve permitir que as pessoas contratantes se cadastrem, informando seus dados pessoais.                                                                                        | Contratante                | Média      |
+| RF-09 | A plataforma deve oferecer uma ferramenta que permita aos profissionais compartilharem seus perfis.                                                                                         | Profissional               | Baixa      |
+| RF-10 | A plataforma deve oferecer uma ferramenta de relatórios referente às avaliações dos serviços prestados afim de validar seu desempenho.                                                      | Profissional               | Média      |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID     | Descrição                                                                                                                                                                  | Prioridade |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);                                                               | Baixa      |
+| RNF-02 | A plataforma deve ser rápida e responsiva, garantindo que os usuários possam acessar rapidamente as informações e os serviços de que precisam.                             | Alta       |
+| RNF-03 | A plataforma deve ser fácil de usar e intuitiva, com interface amigável, para que os usuários possam navegar facilmente e encontrar as informações que precisam.           | Média      |
+| RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)                                                               | Média      |
+| RNF-05 | A plataforma deve ser confiável e segura, garantindo a privacidade dos dados dos usuários, a proteção contra ataques cibernéticos e a estabilidade do sistema.             | Alta       |
+| RNF-06 | A plataforma deve ser escalável para lidar com um grande número de usuários e serviços, sem comprometer a qualidade do serviço ou a velocidade de resposta.                | Média      |
+| RNF-07 | A plataforma deve estar disponível 24 horas por dia, 7 dias por semana, sem interrupções programadas ou não programadas.                                                   | Alta       |
+| RNF-08 | A plataforma deve ser fácil de manter e atualizar, com uma estrutura bem organizada e documentada, para facilitar a correção de erros e a implementação de novos recursos. | Alta       |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID    | Descrição                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------- |
+| RE-01 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data a definir (data de entrega etapa 5). |
+| RE-02 | O aplicativo deve se restringir às tecnologias básicas da Web no Frontend                                                     |
+| RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho                                                                  |
