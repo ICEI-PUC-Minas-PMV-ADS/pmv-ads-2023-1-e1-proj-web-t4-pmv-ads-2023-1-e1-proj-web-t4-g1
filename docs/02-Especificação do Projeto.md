@@ -2,25 +2,42 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| Informações Pessoais       |
+| -------------------------- |
+| Nome                       | Camila Ferraz |
+| Idade                      | 40 |
+| Ocupação                   | Fisioterapeuta e esteticista, sócia de clínica de estética de relaxamento e bem-estar |
+| Aplicativos                | Instagram, LinkedIn, Facebook, aplicativos de bancos |
+| Motivações                 |
+| Projetos                   | Pretende fazer manutenção, reforma e ampliação da clínica de estética. |
+| Frustrações                | Não tem conhecimento e receio de contratar profissionais sem experiência para o serviço pleiteado. |
+| Como o sistema pode ajudar | O sistema pode ajudá-la a encontrar um profissional que se adeque a qualquer prestação de serviço relacionado à área de manutenção, reforma e construção do seu empreendimento. |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| Informações Pessoais       |
+| -------------------------- |
+| Nome                       | Rafael Ribeiro |
+| Idade                      | 38 |
+| Ocupação                   | Técnico em refrigeração |
+| Aplicativos                | Facebook, Instagram |
+| Motivações                 |
+| Projetos                   | Rafael sonha em empreender sem ter vínculo funcional com empresas, pois acredita que financeiramente será bem mais satisfatório. |
+| Frustrações                | Não está satisfeito no atual emprego e gostaria de seguir profissionalmente como autônomo. |
+| Como o sistema pode ajudar | Através do cadastro na plataforma, o sistema pode ajudá-lo a se conectar com possíveis clientes - pessoas físicas/ou jurídicas - para prestação de serviços pontuais. Isso pode ajudá-lo a aumentar sua base de clientes e a obter mais oportunidades de trabalho como autônomo. |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| Informações Pessoais       |
+| -------------------------- |
+| Nome                       | Felipe Camargo |
+| Idade                      | 43 |
+| Ocupação                   | Arquiteto autônomo |
+| Aplicativos                | Facebook, LinkedIn, aplicativos de bancos |
+| Motivações                 |
+| Projetos                   | Ampliação de networking e novas experiências profissionais na área de arquitetura e design. |
+| Frustrações                | Com apenas 3 anos de mercado, sente a necessidade de expandir sua rede e conhecimento interpessoal para possíveis novas oportunidades de trabalho. |
+| Como o sistema pode ajudar | Através do cadastro na plataforma, o sistema pode ajudá-lo a se conectar com possíveis clientes - pessoas físicas/ou jurídicas - para prestação de serviços pontuais, parcerias e/ou novas oportunidades de emprego. Isso pode ajudá-lo a expandir sua rede e a obter mais oportunidades de trabalho na área. |
 
 ## Histórias de Usuários
 
