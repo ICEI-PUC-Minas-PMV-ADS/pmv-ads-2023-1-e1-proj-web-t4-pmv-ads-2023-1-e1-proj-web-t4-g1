@@ -1,23 +1,24 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas Virtual`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Primeira semestre - Turma 04 - 2023/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+ Construção de uma plataforma digital que conecte profissionais autônomos e consumidores do setor de prestação de serviços. Através desta solução, será possível criar uma rede de informações sobre os profissionais autônomos que atuam em diferentes áreas, como reparos, reformas, construção e assistência técnica, fornecendo funcionalidades para integrar o consumidor e o prestador de serviço. O objetivo é disponibilizar um serviço que conecte pessoas, promovendo a geração de renda e a praticidade na hora de contratar serviços. O público-alvo são os trabalhadores autônomos que atuam como prestadores de serviços e encontram dificuldades em divulgar seus serviços e conquistar novos clientes.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Naianna Silva Duarte Cavalcante
+* Gustavo da Silva Candido 
+* Renan Gonçalves Cunha
+* Mayra Nayane Borges Vieira De Assis
+* Weglesson de Moura Silva
 
-## Orientador
+## Orientadora
 
-* Nome completo do professor 1
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
