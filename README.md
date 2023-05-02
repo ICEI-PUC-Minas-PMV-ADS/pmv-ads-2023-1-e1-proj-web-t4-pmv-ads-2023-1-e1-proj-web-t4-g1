@@ -4,7 +4,7 @@
 
 `Desenvolvimento de Aplicação Web Front-End`
 
-`Primeira semestre - Turma 04 - 2023/1`
+`Primeiro semestre - Turma 04 - 2023/1`
 
  Construção de uma plataforma digital que conecte profissionais autônomos e consumidores do setor de prestação de serviços. Através desta solução, será possível criar uma rede de informações sobre os profissionais autônomos que atuam em diferentes áreas, como reparos, reformas, construção e assistência técnica, fornecendo funcionalidades para integrar o consumidor e o prestador de serviço. O objetivo é disponibilizar um serviço que conecte pessoas, promovendo a geração de renda e a praticidade na hora de contratar serviços. O público-alvo são os trabalhadores autônomos que atuam como prestadores de serviços e encontram dificuldades em divulgar seus serviços e conquistar novos clientes.
 
