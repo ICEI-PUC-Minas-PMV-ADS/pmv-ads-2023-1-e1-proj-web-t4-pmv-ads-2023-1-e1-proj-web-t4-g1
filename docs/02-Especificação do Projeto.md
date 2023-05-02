@@ -24,12 +24,23 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários. 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| -------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Camila Ferraz        | Busco um site que proporcione facilidade na busca por prestadores de serviços   | Para realizar manutenção no meu equipamento de ar-condicionado. |
+| Camila Ferraz        | Quero um site com sistema de classificação com base nas avaliações dos clientes | Para que eu possa contratar profissionais com mais segurança    |
+| Rafael Ribeiro       | Ter uma plataforma para oferecer meu serviço                                    | Para conseguir me conectar a novos clientes                     |
+| Rafael Ribeiro       | Quero uma plataforma que eu possa acessar do meu smartphone                     | Para que eu consiga mais praticidade no dia a dia               |
+| Felipe Camargo       | Quero poder compartilhar meu portfólio com meus potenciais clientes             | Para que conheçam meus trabalhos anteriores                     |
+| Camila Ferraz        | Buscar profissionais que estejam localizados próximo a mim                      | Para diminuir meu tempo de espera pelo serviço                  |
+| Felipe Camargo       | Ter acesso ao perfil dos clientes que contratam meu serviço                     | Para expandir meu negócio                                       |
+| Rafael Ribeiro       | Ter acesso as minhas métricas dos últimos 30 dias                               | Para acompanhar meu desempenho                                  |
+| Felipe Camargo       | Quero compartilhar meu desempenho nas redes sociais                             | Para melhorar a divulgação do meu trabalho                      |
+| Camila Ferraz        | Quero poder me comunicar com o prestador de serviço.                            | Para estabelecer detalhes e sanar dúvidas sobre o serviço       |
+
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
