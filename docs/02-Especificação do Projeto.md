@@ -24,7 +24,6 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 | Ocupação             | Fisioterapeuta e esteticista, sócia de clínica de estética de relaxamento e bem-estar |
 | Aplicativos          | Instagram, LinkedIn, Facebook, aplicativos de bancos                                  |
 | Motivações                 |                                                                                                                                                                                 |
-|
 | Frustrações                | Não tem conhecimento e receio de contratar profissionais sem experiência para o serviço pleiteado.                                                                              |
 | Como o sistema pode ajudar | O sistema pode ajudá-la a encontrar um profissional que se adeque a qualquer prestação de serviço relacionado à área de manutenção, reforma e construção do seu empreendimento. |
 | Projetos                   | Pretende fazer manutenção, reforma e ampliação da clínica de estética.                                                                                                          |
