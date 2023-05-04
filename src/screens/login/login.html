@@ -1,42 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-</head>
-<body>
-    <div class="container">
-        <form class="login-form">
-            <h1>Login</h1>
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit">Login</button>
-        </form>
 
-        <form class="signup-form">
-            <h1>Sign Up</h1>
-            <div class="form-group">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
+    <!-- CSS -->
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">Logo</a>
+
+            <button class="button">Login</button>
+        </nav>
+    </header>
+
+    <section class="container forms">
+        <div class="form login">
+            <div class="form content">
+                <h2>Entre</h2>
+
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="email" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-password">Esqueci minha senha</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Entrar</button>
+                    </div>
+                </form>
+
             </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form content">
+                <h2>Crie sua conta</h2>
+
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="email" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="text" placeholder="Nome" class="cpf" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Cria conta</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="new-password">Password:</label>
-                <input type="password" id="new-password" name="new-password" required>
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-    </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+
+    <script src="login.js"></script>
 </body>
+
 </html>
