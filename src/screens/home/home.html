@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Job</title>
+    <link 
+      rel="stylesheet"  
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="public/css/styles.css" />
+  </head>
+
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">  
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" href="add.html">login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="top-container" class="container-fluid">
+      <h1 id="main-title" class="text-center">
+        Encontre
+      </h1>
+      <p id="main-subtitle" class="text-center">
+        Nós somos um site que trabalha para democratizar o acesso à Prestação de serviço e fornecer segurança aos consumidores em suas escolhas
+      </p>
+
+      <form action="">
+        <div class="pesquisa">
+            <input type="text" name="" id="pesquisa" class="barra__pesquisa">
+            <button type="submit" class="btn btn-primary">Procurar</button>
+        </div>
+    </form>
     
-</body>
-</html>
+    <main>
+      <div id="jobs-container" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 id="job-list-title">Categorias</h2>
+            <ul id="job-list" class="list-group">
+              <li class="list-group-item new-job">
+                <img src="https://img.icons8.com/?size=512&id=83314&format=png" alt="Company" style="width: 100px; height: 100px;" />
+
+               
+                <h2>Manuntenção Ar condicionado</h2>
+                <p>R$ 150,00 </p>
+                <span class="new-job-label"></span>
+                <a class="btn btn-primary">Ver Job</a>
+              </li>
+              <li class="list-group-item new-job">
+                <img src="https://cdn-icons-png.flaticon.com/128/3976/3976263.png" alt="Company" style="width: 100px; height: 100px;" />
+                <h2>Eletricista</h2>
+                <p>R$100,00 </p>
+                <span class="new-job-label"></span>
+                <a class="btn btn-primary">Ver job</a>
+              </li>
+              <li class="list-group-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/3951/3951087.png" alt="Company" style="width: 100px; height: 100px;" />
+                <h2>Limpeza</h2>
+                <p>R$120</p>
+                <a class="btn btn-primary">Ver Job</a>
+              </li>
+              <li class="list-group-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/3749/3749781.png" alt="Company" style="width: 100px; height: 100px;" />
+                <h2>Manutenção de computadores</h2>       
+                <p>R$100</p>
+                <a class="btn btn-primary">Ver Job</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    
