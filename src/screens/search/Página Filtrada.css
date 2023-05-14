@@ -122,7 +122,7 @@ background-color:  rgb(170, 170, 170);
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    min-height: 550px;
+    min-height: 680px;
     padding: 20px;
 }
 
@@ -147,6 +147,7 @@ background-color:  rgb(170, 170, 170);
     background-color: rgb(203, 203, 203);
     border-style: solid;
     margin-bottom: 5px;
+    overflow: scroll;
 }
 
 .Texto_Descritivo {
@@ -181,7 +182,8 @@ background-color:  rgb(170, 170, 170);
     align-items: center;
     justify-content: center;
     padding: 20px;
-    min-height: 550px;
+    min-height: 680px;
+    overflow: scroll;
 }
 
 .icone_1 {
@@ -221,8 +223,14 @@ background-color:  rgb(170, 170, 170);
 }
 
 .Nome {
-
+    height: 20px;
     font-size: 15px;
     overflow-x: hidden;
     margin-top: 24px;
+}
+
+.Texto_Descritivo {
+    font-size: 15px;
+    height: 150px;
+    text-decoration: none;
 }
