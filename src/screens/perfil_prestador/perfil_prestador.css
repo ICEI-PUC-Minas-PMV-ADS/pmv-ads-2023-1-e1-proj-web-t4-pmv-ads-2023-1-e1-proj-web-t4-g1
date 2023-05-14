@@ -1,0 +1,36 @@
+.navbar-brand {
+    color: gray;
+}
+.navbar {
+    background-color:#ddd
+}
+.card img {
+    width: 60%;
+    margin: auto;
+}
+.card-body p {
+    text-align: justify;
+}
+.card-body h5 {
+    text-align: center;
+}
+.card-body button {
+    margin: 5%;
+}
+.card-title h5 {
+    width: 100%;
+}
+.card-body-3 p {
+    text-align: center;
+}
+.rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.rating label {
+    color: #ddd;
+    font-size: 2em;
+    padding: 0 0.1em;
+    cursor: pointer;
+}
