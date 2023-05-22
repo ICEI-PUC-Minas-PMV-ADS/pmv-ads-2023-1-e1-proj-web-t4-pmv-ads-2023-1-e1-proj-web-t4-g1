@@ -2,9 +2,8 @@ const signUpForm = document.querySelector(".signup form");
 const emailInput = signUpForm.querySelector(".email");
 const nameInput = signUpForm.querySelector(".cpf");
 const passwordInput = signUpForm.querySelector(".password");
-showOrHidePassword = document.querySelectorAll(".eye-icon");
-links = document.querySelectorAll(".link");
-
+const showOrHidePassword = document.querySelectorAll(".eye-icon");
+const links = document.querySelectorAll(".link");
 
 signUpForm.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -13,35 +12,50 @@ signUpForm.addEventListener("submit", (e) => {
     const name = nameInput.value;
     const password = passwordInput.value;
 
-    const isValid = validateFormData(email, name, password);
+    const validationResult = validateFormData(email, name, password);
 
-    if (isValid) {
-        alert("Cadastro realizado com sucesso!");
+
+    if (validationResult.isValid) {
+        navigateToHome('http://127.0.0.1:5500/src/screens/home/home.html');
         signUpForm.reset();
     } else {
-        alert("Erro ao criar conta. Tente novamente mais tarde.");
+        alert(`Erro ao criar conta. Motivo: ${validationResult.error}`);
     }
+});
 
-})
+function navigateToHome(url) {
+    window.location.href = url;
+}
 
 function validateFormData(email, name, password) {
     const emailRegex = /^\S+@\S+\.\S+$/;
     if (!emailRegex.test(email)) {
-        return false;
+        return {
+            isValid: false,
+            error: "O email fornecido é inválido."
+        };
     }
 
     if (name.length < 3) {
-        return false;
+        return {
+            isValid: false,
+            error: "O nome deve ter pelo menos 3 caracteres."
+        };
     }
 
     if (password.length < 6) {
-        return false;
+        return {
+            isValid: false,
+            error: "A senha deve ter pelo menos 6 caracteres."
+        };
     }
 
-    return true;
+    return {
+        isValid: true,
+        error: null
+    };
 }
 
-
 showOrHidePassword.forEach(eyeIcon => {
     eyeIcon.addEventListener("click", () => {
         let passwordFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
@@ -50,29 +64,10 @@ showOrHidePassword.forEach(eyeIcon => {
             if (password.type === "password") {
                 password.type = "text";
                 eyeIcon.classList.replace("bx-hide", "bx-show");
-                return;
+            } else {
+                password.type = "password";
+                eyeIcon.classList.replace("bx-show", "bx-hide");
             }
-            password.type = "password";
-            eyeIcon.classList.replace("bx-show", "bx-hide");
-        });
-    });
-});
-
-showOrHidePassword = document.querySelectorAll(".eye-icon");
-links = document.querySelectorAll(".link");
-
-showOrHidePassword.forEach(eyeIcon => {
-    eyeIcon.addEventListener("click", () => {
-        let passwordFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
-
-        passwordFields.forEach(password => {
-            if (password.type === "password") {
-                password.type = "text";
-                eyeIcon.classList.replace("bx-hide", "bx-show");
-                return;
-            }
-            password.type = "password";
-            eyeIcon.classList.replace("bx-show", "bx-hide");
         });
     });
 });
