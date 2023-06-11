@@ -1,36 +1,222 @@
-.navbar-brand {
-    color: gray;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --cor-de-fundo: #FFFFFF ;
+    --cor-da-fonte-principal: #080202; 
+    --cor-da-fonte-secundaria: #C0C0C0;
+    --fonte-principal: font-family: 'Inter', sans-serif;
 }
-.navbar {
-    background-color:#ddd
+*{
+    margin: 0;
+    padding: 0;
 }
-.card img {
-    width: 60%;
-    margin: auto;
+main {
+    display: flex;
+    justify-content: space-around;
 }
-.card-body p {
+html body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+}
+footer {
+    display: flex;
+}
+header {
+    background-color: transparent;
+    padding: 1%
+}
+#navbar__logo {
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#navbar__botao {
+    justify-content: flex-end;
+    color: var(--cor-de-fundo);
+    background-color: #27374D;
+    border-color: #27374D;;
+}
+#navbar__botao:hover,
+  #navbar__botao.active {
+    color: #526D82;
+}
+.navbar a{
+    color: var(--cor-da-fonte-principal);
+    padding: 20px, 0,0,0;
+}
+.foto_prestador img {
+    width: 100%;
+    padding: 24px;
+}
+#accordionExample {
+    font-family: var(--fonte-principal);
+    text-align: justify;
+    color: var(--cor-da-fonte-principal);
+}
+#headingOne button {
+    color: #27374D;
+    font-family:var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+#headingTwo button {
+    color: var(--cor-da-fonte-principal);
+    font-family:var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+#headingThree button {
+    color: var(--cor-da-fonte-principal);
+    font-family:var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+.foto_prestador__titulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 4%;
+    color: var(--cor-da-fonte-principal);
+}
+.portfolio_prestador {
+    width: 50%;
+    font-family: var(--fonte-principal);
+}
+.portfolio_prestador__titulo {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 2%;
+    color: var(--cor-da-fonte-principal);
+}
+.avaliacoes_prestador__titulo {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 4%;
+    color: var(--cor-da-fonte-principal);
+}
+.card-title {
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    text-align: center;
+}
+.card-text {
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+}
+.foto_prestador {
+    font-family: var(--fonte-principal);
+}
+.card-header {
+    font-family: var(--fonte-principal);
+    color: goldenrod;
+}
+.avaliacoes_prestador{
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte-principal);
+    font-size: 0.875rem;
     text-align: justify;
 }
-.card-body h5 {
-    text-align: center;
-}
-.card-body button {
-    margin: 5%;
-}
-.card-title h5 {
-    width: 100%;
-}
-.card-body-3 p {
-    text-align: center;
-}
-.rating {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-}
-.rating label {
-    color: #ddd;
-    font-size: 2em;
-    padding: 0 0.1em;
+.star {
+    font-size: 1.5rem;
     cursor: pointer;
+    color: gray;
+  }
+  .star:hover,
+  .star.active {
+    color: gold;
+  }
+  .foto_prestador__titulo__nome {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem
+  }
+ 
+  .redes__sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .redessociais__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cor-da-fonte-principal);
+    margin-top: 6%;
+  }
+  .links {
+    font-family: var(--fonte-principal);
+    border: 1px var(--cor-da-fonte-principal) solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--cor-de-fundo);
+    background-color: #27374D;
+    text-decoration: none;
+    width: 60%;
+  }
+  .links:hover,
+  .links.active {
+    color: #526D82;
+  }
+  .botao_enviar_mensagem:hover,
+  .botao_enviar_mensagem.active {
+    color: #526D82;
+  }
+  .botao_enviar_mensagem {
+    font-family: var(--fonte-principal);
+    font-size: 1.2rem;
+    border: 1px var(--cor-da-fonte-principal) solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding:10px;
+    color: #DDE6ED;
+    background-color: #27374D;
+    text-decoration: none;
+    width: 100%;
+  }
+.rodape {
+    display: block;
+    text-align: center;
+    margin: 1.5em 1.5em
+}
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 0.90rem;
+  }
+.lista__link a {
+    text-decoration: none;
+    color: var(--cor-da-fonte-principal);
+    margin-left: 1em;
+}
+.lista__link a:hover{
+    color: var(--cor-da-fonte-secundaria)
+}
+.lista__link a:active {
+    color: purple;
+}
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+    }
 }
